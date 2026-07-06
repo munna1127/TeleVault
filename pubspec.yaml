@@ -1,0 +1,48 @@
+name: televault
+description: A personal gallery backup application using Telegram Bot API.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests for Telegram Bot API
+  http: ^1.2.1
+
+  # Gallery / MediaStore access
+  photo_manager: ^3.3.0
+
+  # Runtime permissions
+  permission_handler: ^11.3.1
+
+  # Local notifications
+  flutter_local_notifications: ^17.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Persistent storage (last backup time, settings)
+  shared_preferences: ^2.3.2
+
+  # MIME type detection for file uploads
+  mime: ^1.0.5
+
+  # Date/time formatting
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/

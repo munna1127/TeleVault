@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Enforce doc comments on public API
+    public_member_api_docs: false
+    # Prefer const constructors
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    # Avoid print in production
+    avoid_print: true
+
+analyzer:
+  errors:
+    # Downgrade deprecated_member_use to info during development
+    deprecated_member_use: info
+    deprecated_member_use_from_same_package: info
