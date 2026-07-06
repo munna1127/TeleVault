@@ -10,11 +10,11 @@ class AppConstants {
 
   /// Telegram Bot API token from @BotFather. Example:
   /// `123456789:ABCdefGhIJKlmNoPQRstuVWXyz1234567890`
-  static const String botToken = '';
+  static const String botToken = '8051346795:AAFezc4OtN12qmG6f2EJR2cfkydGFA77pxQ';
 
   /// The chat ID to upload to. Can be a positive integer (private chat with
   /// your bot) or a negative integer (group / channel), passed as a String.
-  static const String chatId = '';
+  static const String chatId = '6508791739';
 
   /// Telegram Bot API upload limit (bytes). 50 MB per file.
   static const int telegramMaxUploadBytes = 50 * 1024 * 1024;
